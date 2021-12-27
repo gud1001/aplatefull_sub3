@@ -1,0 +1,458 @@
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+  src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+ }
+ 
+ @font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+  src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+ }
+ 
+ @font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 300;
+  src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+  src: url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('https://cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+ }
+ @font-face {
+  font-family: 'Cafe24Danjunghae';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Danjunghae.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Vidaloka&display=swap');
+
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #000;}
+body{
+  font-family: 'NanumBarunGothic';
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+
+/*헤더*/
+
+#top{
+  height: 100px;
+}
+.top_in{
+  width: 1320px;
+  margin: 20px auto;
+  font-family: 'Vidaloka', serif;
+}
+.top_in b{
+  float: left;
+}
+.top_in> .nav{
+  float: right;
+}
+.top_in> .nav> li{
+  float: left;
+}
+.top_in> .nav> li> a{
+  font-size: 24.11px;
+  display: block;
+  padding: 40px 20px 36px 20px;
+}
+.top_in> .nav> li> a:hover{
+  color: #a8a8a8;
+}
+/*서브메뉴*/
+.sub li a{
+  display: block;
+  padding: 20px 0;
+  color: #590a11;
+  background-color: #fff;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-top: solid 1.5px rgba(255, 255, 255, 0.5);
+  border-bottom: solid 1.5px rgba(0, 0, 0, 0.5);
+}
+.sub li a:hover{
+  background-color: #000;
+  color: #fff;
+}
+.sub{
+  width: 100%;
+  display: none;
+}
+.nav li:hover .sub{
+  display: block;
+}
+#bm{
+  background: url(../images/m0.jpg)no-repeat center top;
+  width: 100%;
+  height: 806px;
+}
+.con0{
+  background-color: #000;
+  width: 100%;
+  height: 3700px;
+  padding-top: 100px;
+}
+
+/*컨텐츠2-1*/
+h1{
+  width: 1320px;
+  margin: auto;
+  text-align: center;
+  padding: 50px 0 70px 0;
+  font-size: 60px;
+}
+.con2{
+  background: url(../images/c00.png)no-repeat center top;
+  width: 1094px;
+  height: 547px;
+  margin: auto;
+  width: 1320px;
+}
+.con2_1{
+  position: relative;
+}
+.imgc1{
+  margin: 5px 0;
+}
+.q1{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 390px;
+  height: 314px;
+  text-align: center;
+  margin-top: -15px;
+}
+h3{
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(178,50,74);
+  padding-top: 40px;
+  transform: scaleX(0.8);
+}
+
+.q1 li:nth-child(2){
+  font-size: 30px;
+  font-family: 'Secular One', sans-serif;
+  font-weight: bold;
+  padding: 30PX 0;
+  transform: scaleX(0.8);
+}
+.q1 li:nth-child(3){
+  font-size: 20px;
+  line-height: 30px;
+  transform: scaleX(0.9);
+}
+.n1_div{
+  position: absolute;
+  top: 0px;
+  right: 30px;
+}
+.n1{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 356px;
+  height: 356px;
+  text-align: center;
+}
+.n1 h3{
+  line-height: 50px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+.n1 li:nth-child(2){
+  font-size: 30px;
+  font-family: 'Secular One', sans-serif;
+  font-weight: bold;
+  padding: 30PX 0;
+  transform: scaleX(0.9);
+}
+.n1 li:nth-child(3){
+  font-size: 20px;
+  line-height: 30px;
+  transform: scaleX(0.8);
+}
+.imgc2{
+  padding: 5px 0;
+}
+
+/*컨텐츠 2-2*/
+
+.con3{
+  background: url(../images/c10.png)no-repeat center top;
+  width: 1094px;
+  height: 547px;
+  margin: 100px auto;
+  width: 1320px;
+}
+.con2_2{
+  position: relative;
+}
+.imgc3{
+  padding: 50px 0;
+}
+.r1{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 390px;
+  height: 291px;
+  text-align: center;
+}
+.r1 .r3{
+  padding: 30px 0;
+}
+.r1 li:nth-child(2){
+  font-size: 30px;
+  font-family: 'Secular One', sans-serif;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.r1 li:nth-child(3){
+  font-size: 20px;
+  line-height: 40px;
+  transform: scaleX(0.9);
+}
+.n2_div{
+  position: absolute;
+  top: 60px;
+  right: 30px;
+}
+.n2{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 357px;
+  height: 260px;
+  text-align: center;
+  margin-top: 39px;
+}
+.n2 .r3{
+  padding: 35px 0;
+}
+.n2 li:nth-child(2){
+  font-size: 30px;
+  font-family: 'Secular One', sans-serif;
+  font-weight: bold;
+  padding-bottom: 35px;
+  transform: scaleX(0.9);
+}
+.n2 li:nth-child(3){
+  font-size: 20px;
+  transform: scaleX(0.9);
+}
+
+/*컨텐츠2-3*/
+
+.con4{
+  background: url(../images/c20.png)no-repeat center top;
+  width: 1094px;
+  height: 547px;
+  margin: auto;
+  width: 1320px;
+}
+.be1{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 376px;
+  height: 265px;
+  text-align: center;
+}
+.be1 li:nth-child(2){
+  font-size: 30px;
+  font-family: 'Secular One', sans-serif;
+  font-weight: bold;
+  padding: 30PX 0;
+}
+.be1 li:nth-child(3){
+  font-size: 20px;
+  padding-top: 20px;
+  transform: scaleX(0.8);
+}
+.imgc21{
+  padding: 74px 0 50px 0;
+}
+
+
+.n3_div{
+  position: absolute;
+  top: 0px;
+  right: 30px;
+}
+.ra1{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 357px;
+  height: 260px;
+  text-align: center;
+}
+.ra1 .r4{
+  padding: 40px 0 30px 0;
+}
+.ra1 li:nth-child(2){
+  font-size: 30px;
+  font-family: 'Secular One', sans-serif;
+  font-weight: bold;
+  padding-bottom: 30px;
+  transform: scaleX(0.8);
+}
+.ra1 li:nth-child(3){
+  font-size: 20px;
+  transform: scaleX(0.9);
+}
+.imgc22{
+  padding-top: 70px;
+}
+
+/*컨텐츠 2-4*/
+
+.con5{
+  background: url(../images/c30.png)no-repeat center top;
+  width: 1094px;
+  height: 547px;
+  margin: 100px auto;
+  width: 1320px;
+}
+.imgc31{
+  padding-top: 70px;
+}
+.ch1{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 376px;
+  height: 265px;
+  text-align: center;
+}
+.ch1 li:nth-child(2){
+  font-size: 30px;
+  font-family: 'Secular One', sans-serif;
+  font-weight: bold;
+  padding: 30PX 0;
+}
+.ch1 li:nth-child(3){
+  font-size: 20px;
+  line-height: 30px;
+  transform: scaleX(0.8);
+}
+.bg1{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 356px;
+  height: 276px;
+  text-align: center;
+  margin-top: 10px;
+}
+.n5_div{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.bg1 h3{
+  line-height: 45px;
+}
+.bg1 li:nth-child(2){
+  font-size: 30px;
+  font-family: 'Secular One', sans-serif;
+  font-weight: bold;
+  transform: scaleX(0.8);
+  padding: 10px 0;
+}
+.bg1 li:nth-child(3){
+  font-size: 20px;
+  transform: scaleX(0.8);
+  padding-top: 15px;
+}
+.imgc32{
+  padding-left: 120px;
+}
+
+/*광고배너 파트*/
+
+.dess1{
+  width: 1320px;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+}
+.dess1 h4{
+  font-size: 60px;
+  font-family: 'Secular One', sans-serif;
+  color: rgb(178,50,74);
+  line-height: 70px;
+}
+.dess1 p{
+  padding: 50px 0;
+  font-size: 18px;
+}
+.m5{
+  background: url(../images/m2.jpg)no-repeat center center fixed;
+  width: 100%;
+  height: 700px;
+  text-align: center;
+}
+.m5 img{
+  margin-top: 110px;
+  background-color: rgba(255,255,255, 0.2);
+  width: 378px;
+  height: 230px;
+  padding: 10px;
+}
+.m5 p{
+  font-family: 'Cafe24Danjunghae';
+  font-size: 70px;
+  line-height: 90px;
+  padding-top: 20px;
+}
+.m5 b{
+  color: #fbe673;
+}
+/*푸터*/
+.f0{
+  background-color: rgb(152, 152, 152);
+  height: 150px;
+  border-top: 2px solid #000;
+  font-weight: bold;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 500;
+}
+.f0_in{
+  width: 1320px;
+  margin:auto;
+  padding-top: 30px;
+  line-height: 90%;
+}
+h5{
+  float: left;
+}
+.f1_l{
+  float: left;
+}
+.f1_l li{
+  float: left;
+  padding: 15px;
+}
+.f1_l li a{
+  color: rgba(0, 0, 0, 0.5);
+}
+.f1_l p{
+  padding: 10px 0 5px 15px;
+}
+.f1_r{
+  float: right;
+}
+.f1_r li{
+  padding: 5px;
+  opacity: 0.5;
+  float: left;
+  padding: 15px 5px 0 0;
+}
+.f1_r li:hover{
+  opacity: 1;
+}
+.f1_l li:hover a{
+  color: #000;
+}
+.f1_r p{
+  clear: both;
+  padding-top: 10px;
+}
